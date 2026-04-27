@@ -1,4 +1,3 @@
-# PriceWatcher (PRINZIP apartment price watcher)
 
 Сервис на `C# / .NET 8` для отслеживания изменения цен квартир на `https://prinzip.su`.
 
