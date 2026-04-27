@@ -43,7 +43,7 @@ public sealed class SmtpEmailSender : IEmailSender
             client.Credentials = new NetworkCredential(_opt.Username, _opt.Password);
         }
 
-        // SmtpClient is sync-only; run on threadpool to respect cancellation.
+       
         await Task.Run(() => client.Send(msg), ct);
     }
 }
