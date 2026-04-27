@@ -1,0 +1,32 @@
+@PriceWatcher_HostAddress = http://localhost:5077
+
+GET {{PriceWatcher_HostAddress}}/health
+Accept: application/json
+
+###
+
+POST {{PriceWatcher_HostAddress}}/api/subscriptions
+Content-Type: application/json
+Accept: application/json
+
+{
+  "listingUrl": "https://prinzip.su/",
+  "email": "test@example.com"
+}
+
+###
+
+GET {{PriceWatcher_HostAddress}}/api/subscriptions/prices
+Accept: application/json
+
+###
+
+GET {{PriceWatcher_HostAddress}}/api/subscriptions/prices/pretty
+Accept: application/json
+
+###
+
+GET {{PriceWatcher_HostAddress}}/api/prinzip/apartments/prices?limit=30
+Accept: application/json
+
+###

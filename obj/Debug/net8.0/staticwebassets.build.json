@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pI21eGhdfKFkfLQblqG20PSC3q2THz2Fa4vr4W4bHvM=",
+  "Source": "PriceWatcher",
+  "BasePath": "_content/PriceWatcher",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
